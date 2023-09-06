@@ -404,6 +404,11 @@ nav a {
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.60);
   background: rgba(255, 255, 255, 0.10);
+  transition: 0.3s ease-in-out;
+}
+
+.roadmap_border:hover {
+  background: #5BA72B;
 }
 
 .roadmap_border:hover svg path {
