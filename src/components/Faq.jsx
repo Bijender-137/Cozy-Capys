@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 const Faq = () => {
   return (
     <>
-      <section className="py-5 bg_clr_yellow">
+      <section className="py-5 bg_clr_yellow"id="Faq">
         <Container>
           <h2
             className="fs_6xl ff_bomb text-white text-center faq_text_shadow mt-xl-4 pt-lg-5"
@@ -20,7 +20,7 @@ const Faq = () => {
               <div className="accordion-item" data-aos="fade-down">
                 <h2 className="accordion-header" id="flush-headingOne">
                   <button
-                    className="accordion-button collapsed fw-bold fs_xl ff_balsamiq accordian_drop_shadow clr_black_faq"
+                    className="accordion-button collapsed fw-bold  ff_balsamiq accordian_drop_shadow clr_black_faq"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseOne"
@@ -48,7 +48,7 @@ const Faq = () => {
               <div className="accordion-item mt-3" data-aos="fade-down">
                 <h2 className="accordion-header" id="flush-headingTwo">
                   <button
-                    className="accordion-button collapsed  fw-bold fs_xl ff_balsamiq accordian_drop_shadow clr_black_faq"
+                    className="accordion-button collapsed  fw-bold  ff_balsamiq accordian_drop_shadow clr_black_faq"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseTwo"
@@ -73,7 +73,7 @@ const Faq = () => {
               <div className="accordion-item mt-3" data-aos="fade-down">
                 <h2 className="accordion-header" id="flush-headingThree">
                   <button
-                    className="accordion-button collapsed  fw-bold fs_xl ff_balsamiq accordian_drop_shadow clr_black_faq"
+                    className="accordion-button collapsed  fw-bold  ff_balsamiq accordian_drop_shadow clr_black_faq"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseThree"
@@ -99,7 +99,7 @@ const Faq = () => {
               <div className="accordion-item mt-3" data-aos="fade-down">
                 <h2 className="accordion-header" id="flush-headingFour">
                   <button
-                    className="accordion-button collapsed  fw-bold fs_xl ff_balsamiq accordian_drop_shadow clr_black_faq"
+                    className="accordion-button collapsed  fw-bold  ff_balsamiq accordian_drop_shadow clr_black_faq"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseFour"
@@ -126,7 +126,7 @@ const Faq = () => {
               <div className="accordion-item mt-3" data-aos="fade-down">
                 <h2 className="accordion-header" id="flush-headingFive">
                   <button
-                    className="accordion-button collapsed  fw-bold fs_xl ff_balsamiq accordian_drop_shadow clr_black_faq"
+                    className="accordion-button collapsed  fw-bold  ff_balsamiq accordian_drop_shadow clr_black_faq"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseFive"
@@ -151,7 +151,7 @@ const Faq = () => {
               <div className="accordion-item mt-3 rounded-4" data-aos="fade-down">
                 <h2 className="accordion-header" id="flush-headingSix">
                   <button
-                    className="accordion-button collapsed  fw-bold fs_xl ff_balsamiq accordian_drop_shadow clr_black_faq"
+                    className="accordion-button collapsed  fw-bold  ff_balsamiq accordian_drop_shadow clr_black_faq"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseSix"

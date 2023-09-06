@@ -11,7 +11,7 @@ import Clouds from "../assets/img/svg/clouds.svg";
 const HeroSec = () => {
   return (
     <>
-      <section className="hero_sec_bg  position-relative  min_h_50 min_vh_75 min_h_100 z_index_2">
+      <section id="Home" className="hero_sec_bg  position-relative  min_h_50 min_vh_75 min_h_100 z_index_2">
         <img width={200} className="position-absolute end-0 z-n1" src={Hero_right_cloud} alt="Hero_right_cloud" />
         <img width={113} className="position-absolute clouds_hero_1_left  z-n1" src={Clouds} alt="Hero_right_cloud" />
         <img width={113} className="position-absolute clouds_hero_2_right  z-n1 d-none d-sm-block" src={Clouds} alt="Hero_right_cloud" />

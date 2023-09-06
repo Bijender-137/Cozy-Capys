@@ -34,7 +34,7 @@ const MyFooter = () => {
             <ul className="m-0 ps-0 d-flex flex-column flex-md-row gap-3 gap-md-0 align-items-center justify-content-center pt-3 mt-lg-5 z_index_5" data-aos="fade-down">
               <li>
                 <a
-                  href="#"
+                  href="#Home"
                   className="fw-normal fs_sm clr_black ff_balsamiq footer_text_underline position-relative"
                 >
                   Home
@@ -42,7 +42,7 @@ const MyFooter = () => {
               </li>
               <li className="ps-md-4 ms-md-3">
                 <a
-                  href="#"
+                  href="#About"
                   className="fw-normal fs_sm clr_black ff_balsamiq footer_text_underline position-relative"
                 >
                   About
@@ -50,7 +50,7 @@ const MyFooter = () => {
               </li>
               <li className="ps-md-4 ms-md-3">
                 <a
-                  href="#"
+                  href="#Impact"
                   className="fw-normal fs_sm clr_black ff_balsamiq footer_text_underline position-relative"
                 >
                   Impact
@@ -58,7 +58,7 @@ const MyFooter = () => {
               </li>
               <li className="ps-md-4 ms-md-3">
                 <a
-                  href="#"
+                  href="#Roadmap"
                   className="fw-normal fs_sm clr_black ff_balsamiq footer_text_underline position-relative"
                 >
                   Roadmap
@@ -66,7 +66,7 @@ const MyFooter = () => {
               </li>
               <li className="ps-md-4 ms-md-3">
                 <a
-                  href="#"
+                  href="#Faq"
                   className="fw-normal fs_sm clr_black ff_balsamiq footer_text_underline position-relative"
                 >
                   FAQ

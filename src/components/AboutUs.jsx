@@ -5,7 +5,7 @@ import About_tree from "../assets/img/webp/Hero_Tree_right.webp";
 import About_us_layer from "../assets/img/png/about_us_layer.png"
 export const AboutUs = () => {
   return (
-    <section className="py-5 about_us_bg_clr position-relative">
+    <section id="About" className="py-5 about_us_bg_clr position-relative">
       <img className="position-absolute w-100" src={About_us_layer} alt="About_us_layer" />
       <img className="position-absolute about_tree d-none d-lg-block" src={About_tree} alt="About_tree" />
       <img
