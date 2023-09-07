@@ -12,7 +12,7 @@ export const Preloader = () => {
     >
       <div className="d-flex justify-content-center align-items-center min-vh-100">
         <div className="z-10 d-inline-block">
-        <h1 className="cozy_text_shadow fw-normal fs_8xl clr_orange ff_bomb line_h_103 mb-0 heroHeading2 headingSame">
+        <h1 className="cozy_text_shadow fw-normal fs_8xl clr_orange ff_bomb line_h_103 mb-0 heroHeading2 headingSame py-5">
               <span className="clr_orange"> Cozy</span>
               <span className=" clr_green ff_soda cozy_text_shadow ms-2">
                 Capys

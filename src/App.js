@@ -31,7 +31,7 @@ function App() {
       <Faq />
       <MyFooter />
       <Preloader />
-      <BackTop/>
+      <BackTop />
     </div>
   );
 }
