@@ -6,7 +6,7 @@ import About_us_layer from "../assets/img/png/about_us_layer.png"
 export const AboutUs = () => {
   return (
     <section id="About" className="py-5 about_us_bg_clr position-relative">
-      <img className="position-absolute w-100" src={About_us_layer} alt="About_us_layer" />
+      <img className="position-absolute w-100 start-0 bottom-0" src={About_us_layer} alt="About_us_layer" />
       <img className="position-absolute about_tree d-none d-lg-block" src={About_tree} alt="About_tree" />
       <img
         className="position-absolute w-100 z_index_6 about_us_bottom_img"

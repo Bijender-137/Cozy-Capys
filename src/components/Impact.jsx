@@ -50,7 +50,7 @@ const Impact = () => {
             </Col>
             <Col lg={6}>
               <div className="gif_img_w gif_img_border ms-lg-5 mx-auto mx-lg-0"data-aos="fade-left">
-                <img className="w-100" src={Gif_img} alt="Gif_img" />
+                <img className="w-100 h-100" src={Gif_img} alt="Gif_img" />
               </div>
             </Col>
           </Row>

@@ -322,10 +322,6 @@ nav a {
   text-shadow: 1px 4px 0px #f683c5;
 }
 
-.opacity07 {
-  opacity: 0.7;
-}
-
 .mx707 {
   max-width: 707px;
 }
@@ -386,9 +382,30 @@ nav a {
   transform: rotate(-90deg);
 }
 
-/* rpadmap*********************** */
+/* roadmap*********************** */
 .bg_clr_green {
   background: #9ACC44;
+}
+
+.text_white_dot::after {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 3px;
+  background-color: white;
+  border-radius: 50%;
+  left: -15px;
+  top: 10px;
+}
+
+.roadmap_bg_clr {
+  border-radius: 19px;
+  border: 7px solid #FFF !important;
+  background-color: #5BA72B !important;
+}
+
+.clr_lite_white {
+  color: #DEEDD5;
 }
 
 .roadmap_cloud_w {
@@ -428,7 +445,6 @@ nav a {
   left: -13%;
   width: 222px;
 }
-
 
 .headingSame {
   overflow: hidden;

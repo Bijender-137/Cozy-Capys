@@ -1,6 +1,6 @@
 import React from "react";
 import MyNav from "./MyNav";
-import { Col, Container, Row } from "react-bootstrap";
+import { Container,} from "react-bootstrap";
 import Hero_Panda from "../assets/img/webp/heroPanda.webp";
 import Hero_tree_left from "../assets/img/webp/Tree_hero_left..webp";
 import Hero_tree_right from "../assets/img/webp/Hero_Tree_right.webp";
@@ -13,9 +13,9 @@ const HeroSec = () => {
     <>
       <section id="Home" className="hero_sec_bg  position-relative  min_h_50 min_vh_75 min_h_100 z_index_2">
         <img width={200} className="position-absolute end-0 z-n1" src={Hero_right_cloud} alt="Hero_right_cloud" />
-        <img width={113} className="position-absolute clouds_hero_1_left  z-n1" src={Clouds} alt="Hero_right_cloud" />
-        <img width={113} className="position-absolute clouds_hero_2_right  z-n1 d-none d-sm-block" src={Clouds} alt="Hero_right_cloud" />
-        <img width={77} className="position-absolute clouds_hero_3_right  z-n1" src={Clouds} alt="Hero_right_cloud" />
+        <img width={113} className="position-absolute clouds_hero_1_left z-n1" src={Clouds} alt="Hero_right_cloud" />
+        <img width={113} className="position-absolute clouds_hero_2_right z-n1 d-none d-sm-block" src={Clouds} alt="Hero_right_cloud" />
+        <img width={77} className="position-absolute clouds_hero_3_right z-n1" src={Clouds} alt="Hero_right_cloud" />
         <img className="position-absolute hero_layer_w d-none d-md-block" src={Hero_left_layer} alt="Hero_left_layer" />
         <img
           className="position-absolute hero_left_tree z_index_3"
