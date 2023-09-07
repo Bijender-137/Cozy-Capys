@@ -16,15 +16,15 @@ export const AboutUs = () => {
       <Container className="custome_container mt-4">
         <div className="about_us_bg_cloud_img about_us_bg_cloud_img_2 position-relative w-100 py-5">
           <div className="text-center pt-lg-5">
-            <div className="pt-lg-5 px-4">
+            <div className="p-lg-5 px-4">
               <p
-                className=" fs_6xl ff_bomb clr_pink pinkShadow pt-xl-5"
+                className=" fs_6xl ff_bomb clr_pink pinkShadow pt-lg-5 mt-lg-5"
                 data-aos="fade-up"
               >
                 About Us
               </p>
               <p
-                className=" max_w_670 mx-auto text-center ps-lg-5 ff_balsamiq fs_md fw-normal clr_lite_black pb-2"
+                className=" max_w_670 mx-auto text-center ps-lg-5 ff_balsamiq fs_md fw-normal clr_lite_black pb-2 mb-2"
                 data-aos="zoom-in"
               >
                 Cozy Capys is an impactful NFT project featuring 10,000 adorable

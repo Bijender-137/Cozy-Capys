@@ -456,6 +456,10 @@ nav a {
   animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end 1;
 }
 
+.cursor_pointer {
+  cursor: pointer;
+}
+
 .heroHeading {
   animation-delay: 4000ms !important;
 }

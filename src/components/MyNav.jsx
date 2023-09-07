@@ -82,19 +82,19 @@ const MyNav = () => {
               className="d-flex justify-content-between flex-column gap-3 align-items-center mb-0 ps-0 navbar_scroll"
             >
               <li onClick={showNav}>
-                <a href="#" className="text-white fw-bold ff_balsamiq fs_sm">Home</a>
+                <a href="#Home" className="text-white fw-bold ff_balsamiq fs_sm">Home</a>
               </li>
               <li onClick={showNav}>
-                <a href="#" className="text-white fw-bold ff_balsamiq fs_sm">About</a>
+                <a href="#About" className="text-white fw-bold ff_balsamiq fs_sm">About</a>
               </li>
               <li onClick={showNav}>
-                <a href="#" className="text-white fw-bold ff_balsamiq fs_sm">Impact</a>
+                <a href="#Impact" className="text-white fw-bold ff_balsamiq fs_sm">Impact</a>
               </li>
               <li onClick={showNav}>
-                <a href="#" className="text-white fw-bold ff_balsamiq fs_sm">Roadmap</a>
+                <a href="#Roadmap" className="text-white fw-bold ff_balsamiq fs_sm">Roadmap</a>
               </li>
               <li onClick={showNav}>
-                <a href="#" className="text-white fw-bold ff_balsamiq fs_sm">FAQ</a>
+                <a href="#Faq" className="text-white fw-bold ff_balsamiq fs_sm">FAQ</a>
               </li>
             </ul>
             <div className="gap-2 d-flex mt-4 d-sm-none">

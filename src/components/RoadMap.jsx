@@ -53,7 +53,7 @@ const RoadMap = () => {
             <div className="d-lg-flex justify-content-between align-items-center position-relative">
               <div className="px-3">
                 <img
-                  className="position-absolute end-0 top-0"
+                  className="position-absolute end-0 top-0 cursor_pointer"
                   onClick={() => setOpen(true)}
                   src={roadmap_cross}
                   alt="roadmap card cross"
