@@ -6,7 +6,7 @@ const Faq = () => {
       <section className="py-5 bg_clr_yellow"id="Faq">
         <Container>
           <h2
-            className="fs_6xl ff_bomb text-white text-center faq_text_shadow mt-xl-4 pt-lg-5"
+            className="fs_6xl ff_bomb text-white text-center faq_text_shadow mt-xl-5 pt-lg-5"
             data-aos="fade-down"
           >
             FAQ’s

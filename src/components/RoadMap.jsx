@@ -10,7 +10,7 @@ import {
   Phase_New,
 } from "./common/Icons";
 import Green_wave_bottom from "../assets/img/webp/greenwave.webp";
-import Roadmap_tree from "../assets/img/webp/Hero_Tree_right.webp";
+import Roadmap_tree from "../assets/img/webp/aboutTree.webp";
 import Roadmap_cloud from "../assets/img/svg/roadmap_svg.svg";
 const RoadMap = () => {
   const [open, setOpen] = useState(true);
@@ -24,7 +24,7 @@ const RoadMap = () => {
         />
         <img
           data-aos="zoom-in"
-          className="position-absolute roadmap_tree z_index_3 d-none d-md-block"
+          className="position-absolute roadmap_tree z_index_3 d-none d-lg-block"
           src={Roadmap_tree}
           alt="Roadmap_tree"
         />
@@ -33,12 +33,12 @@ const RoadMap = () => {
           src={Green_wave_bottom}
           alt="Green_wave_bottom"
         />
-        <Container className="custome_container py-5 mt-xl-4">
+        <Container className="custome_container pt-5 pb-4 mt-xl-4">
           <div className="text-center text-lg-start" data-aos="fade-down">
             <h2 className="fw-normal fs_6xl ff_bomb text-white roadmap_shadow mb-0">
               Roadmap
             </h2>
-            <p className="fw-normal fs_md text-white ff_balsamiq pt-3 mt-1">
+            <p className="fw-normal fs_md text-white ff_balsamiq pt-3 mt-1 mb-0">
               Nam duis feugiat tellus metus arcu pharetra arcu. Sed ultrices
               ullamcorper urna <span className="d-lg-block"></span> interdum.
               Maecenas neque augue mattis.
@@ -53,6 +53,7 @@ const RoadMap = () => {
             <div className="d-lg-flex justify-content-between align-items-center position-relative">
               <div className="px-3">
                 <img
+                  width={40}
                   className="position-absolute end-0 top-0 cursor_pointer"
                   onClick={() => setOpen(true)}
                   src={roadmap_cross}
@@ -131,7 +132,7 @@ const RoadMap = () => {
                 className="mx-auto mx-lg-0"
                 data-aos="fade-right"
               >
-                <div className="roadmap_border p-3 mt-5">
+                <div className="roadmap_border p-3 mt-4">
                   <div className="d-flex justify-content-between align-items-center">
                     <div>
                       <h2 className="text-white fw-bold fs_2xl ff_balsamiq p-1">
@@ -160,7 +161,7 @@ const RoadMap = () => {
                 className="mx-auto mx-lg-0"
                 data-aos="fade-left"
               >
-                <div className="roadmap_border p-3 mt-5">
+                <div className="roadmap_border p-3 mt-4">
                   <div className="d-flex justify-content-between align-items-center">
                     <div>
                       <h2 className="text-white fw-bold fs_2xl ff_balsamiq p-1">
@@ -191,7 +192,7 @@ const RoadMap = () => {
                 className="mx-auto mx-lg-0"
                 data-aos="fade-right"
               >
-                <div className="roadmap_border p-3 mt-5">
+                <div className="roadmap_border p-3 mt-4">
                   <div className="d-flex justify-content-between align-items-center">
                     <div>
                       <h2 className="text-white fw-bold fs_2xl ff_balsamiq p-1">
@@ -220,7 +221,7 @@ const RoadMap = () => {
                 className="mx-auto mx-lg-0"
                 data-aos="fade-left"
               >
-                <div className="roadmap_border p-3 mt-5">
+                <div className="roadmap_border p-3 mt-4">
                   <div className="d-flex justify-content-between align-items-center">
                     <div>
                       <h2 className="text-white fw-bold fs_2xl ff_balsamiq p-1">

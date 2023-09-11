@@ -9,7 +9,7 @@ import Left_cloud from "../assets/img/svg/impact_left_cloud.svg"
 const Impact = () => {
   return (
     <>
-      <section id="Impact" className="impact_bg_clr py-5 position-relative z_index_5">
+      <section id="Impact" className="impact_bg_clr pt-5 pb-lg-5 position-relative z_index_5">
         <img className="position-absolute start-0 impact_cloud z-n1" src={Left_cloud} alt="Left_cloud" />
         <img data-aos="zoom-in" className="position-absolute impact_tree z_index_2 d-none d-lg-block" src={Impact_tree} alt="Impact_tree" />
         <img

@@ -1,11 +1,11 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import About_us_bottom from "../assets/img/png/aboutBottomCut.png";
-import About_tree from "../assets/img/webp/Hero_Tree_right.webp";
+import About_tree from "../assets/img/webp/aboutTree.webp";
 import About_us_layer from "../assets/img/png/about_us_layer.png"
 export const AboutUs = () => {
   return (
-    <section id="About" className="py-5 about_us_bg_clr position-relative">
+    <section id="About" className="py-5 about_us_bg_clr position-relative mt-md-5">
       <img className="position-absolute w-100 start-0 bottom-0" src={About_us_layer} alt="About_us_layer" />
       <img className="position-absolute about_tree d-none d-lg-block" src={About_tree} alt="About_tree" />
       <img
@@ -13,8 +13,8 @@ export const AboutUs = () => {
         src={About_us_bottom}
         alt="About_us_bottom"
       />
-      <Container className="custome_container mt-4">
-        <div className="about_us_bg_cloud_img about_us_bg_cloud_img_2 position-relative w-100 py-5">
+      <Container className="custome_container mt-5 pt-md-5 pt-lg-0">
+        <div className="about_us_bg_cloud_img about_us_bg_cloud_img_2 position-relative w-100 py-3 py-sm-4 py-lg-5">
           <div className="text-center pt-lg-5">
             <div className="p-lg-5 px-4">
               <p

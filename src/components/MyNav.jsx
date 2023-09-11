@@ -2,6 +2,7 @@ import { React, useState } from "react";
 import { HiMenuAlt1 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 import { Nav } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import Logo from "../assets/img/webp/page_logo.webp";
 import { Instagram, TwiterIcon, Discord } from "./common/Icons";
 
@@ -22,7 +23,7 @@ const MyNav = () => {
   return (
     <>
       <Nav className="position-relative z-3 w-100 py-2">
-        <div className="my_container container d-flex justify-content-between align-items-center">
+        <Container className="custome_container d-flex justify-content-between align-items-center">
           <div id="dis_none" className="d-flex align-items-center">
             <a href="#" className="nav_logo_w">
               <img src={Logo} alt="Logo" className="w-100" />
@@ -82,19 +83,41 @@ const MyNav = () => {
               className="d-flex justify-content-between flex-column gap-3 align-items-center mb-0 ps-0 navbar_scroll"
             >
               <li onClick={showNav}>
-                <a href="#Home" className="text-white fw-bold ff_balsamiq fs_sm">Home</a>
+                <a
+                  href="#Home"
+                  className="text-white fw-bold ff_balsamiq fs_sm"
+                >
+                  Home
+                </a>
               </li>
               <li onClick={showNav}>
-                <a href="#About" className="text-white fw-bold ff_balsamiq fs_sm">About</a>
+                <a
+                  href="#About"
+                  className="text-white fw-bold ff_balsamiq fs_sm"
+                >
+                  About
+                </a>
               </li>
               <li onClick={showNav}>
-                <a href="#Impact" className="text-white fw-bold ff_balsamiq fs_sm">Impact</a>
+                <a
+                  href="#Impact"
+                  className="text-white fw-bold ff_balsamiq fs_sm"
+                >
+                  Impact
+                </a>
               </li>
               <li onClick={showNav}>
-                <a href="#Roadmap" className="text-white fw-bold ff_balsamiq fs_sm">Roadmap</a>
+                <a
+                  href="#Roadmap"
+                  className="text-white fw-bold ff_balsamiq fs_sm"
+                >
+                  Roadmap
+                </a>
               </li>
               <li onClick={showNav}>
-                <a href="#Faq" className="text-white fw-bold ff_balsamiq fs_sm">FAQ</a>
+                <a href="#Faq" className="text-white fw-bold ff_balsamiq fs_sm">
+                  FAQ
+                </a>
               </li>
             </ul>
             <div className="gap-2 d-flex mt-4 d-sm-none">
@@ -109,7 +132,7 @@ const MyNav = () => {
               </div>
             </div>
           </div>
-        </div>
+        </Container>
       </Nav>
     </>
   );
